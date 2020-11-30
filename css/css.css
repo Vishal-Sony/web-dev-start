@@ -1,0 +1,114 @@
+body {
+  background-color: rgb(204, 204, 204);
+}
+.container1 {
+  display: flex;
+  background-color: rgb(131, 130, 130);
+}
+.logo {
+  flex: 20;
+  background-color: rgb(131, 130, 130);
+  font-size: 30px;
+  font-style: oblique;
+  border-bottom: 4px solid black;
+  border-top: 2px solid black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.search {
+  flex: 1;
+  border-bottom: 4px solid black;
+  border-top: 2px solid black;
+}
+.message {
+  flex: 1;
+  border-bottom: 4px solid black;
+  border-top: 2px solid black;
+}
+.search-button {
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 100%;
+  background-size: 0%;
+  border: aliceblue;
+}
+.messbutton {
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 100%;
+  background-size: 0%;
+  border: aliceblue;
+}
+.container2 {
+  position: relative;
+}
+.name {
+  display: flex;
+  position: relative;
+  padding-top: 30px;
+  border-bottom: 1px solid black;
+  border-top: 2px solid black;
+}
+.dp {
+  flex: 1;
+}
+.instaname {
+  flex: 10;
+  position: absolute;
+  bottom: 0px;
+  left: 70px;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.photo {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.likebar {
+  display: flex;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+.like {
+  flex: 1;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.comment {
+  flex: 1;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.share {
+  flex: 20;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.like-button {
+  padding: 6px;
+  border-radius: 100%;
+  background-size: 0%;
+  border: aliceblue;
+  cursor: pointer;
+}
+.comment-button {
+  padding: 6px;
+  border-radius: 100%;
+  background-size: 0%;
+  border: aliceblue;
+  cursor: pointer;
+}
+.share-button {
+  padding: 6px;
+  border-radius: 100%;
+  background-size: 0%;
+  border: aliceblue;
+  cursor: pointer;
+}
